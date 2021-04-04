@@ -1,4 +1,9 @@
 <?php
+    header('Content-Type: application/json; charset-utf8');
+    header('Access-Control-Allow-Origin: *');
+    header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS');
+    header('Access-Control-Allow-Headers: Content-Type, Content-Range, Content-Disposition, Content-Description');
+
  	$db_host = 'localhost';
  	$db_username = 'homestead';
  	$db_password = 'secret';
